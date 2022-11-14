@@ -1,0 +1,10 @@
+{
+  "name": "specification-jest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Hansanghyeon <999@hyeon.pro>",
+  "type": "module",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
