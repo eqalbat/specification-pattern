@@ -8,7 +8,7 @@ export class Specification {
 // in order to add fluent builder semantics onto the And, Or, Not
 class CompositeSpecification extends Specification {
   and(spec) {
-    return new Add(this, new Spec(spec))
+    return new And(this, new Spec(spec))
   }
   or(spec) {
     return new Or(this, new Spec(spec))
